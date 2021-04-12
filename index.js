@@ -18,4 +18,4 @@ const hour = parseInt(timeStr, 10);
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(msg) {
-  document.getElementById("greeting").innerText = msg;
+  document.getElementById("greeting").innerText = msg;}
