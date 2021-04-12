@@ -11,9 +11,9 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet (time){
-const hour = parseInt(time);
-  if ( hour < 12) return "Good Morning"
-  if ( hour > 17) return "Good Evening"
+const message = parseInt(time);
+  if ( message < 12) return "Good Morning"
+  if ( message > 17) return "Good Evening"
   return "Good Afternoon"
 }
 /* Write your implementation of displayMessage() */
